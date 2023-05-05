@@ -1,0 +1,139 @@
+:root {
+  --accent-color: #404bbf;
+  --main-font: 'Roboto', sans-serif;
+  --main-font-size: 16px;
+  --main-line-hight: 1.5;
+  --main-letter-spacing: 0.02em;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
+  letter-spacing: var(--main-letter-spacing);
+  color: #434455;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+
+button {
+  cursor: pointer;
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #4d5ae5;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+.portfolio-button {
+  background-color: #f4f4fd;
+  color: #4d5ae5;
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-studio-light-bg {
+  color: #2e2f42;
+}
+.page-adress {
+  font-style: normal;
+}
+.menu-item,
+.adress-item {
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
+  letter-spacing: var(--main-letter-spacing);
+}
+.menu-item {
+  font-weight: 500;
+  color: #2e2f42;
+}
+.adress-item {
+  font-weight: 400;
+  color: #434455;
+}
+
+.main-page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.secondary-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  letter-spacing: var(--main-letter-spacing);
+}
+.logo-studio-dark-bg {
+  color: #f4f4fd;
+}
+.footer-discription {
+  color: #f4f4fd;
+}
+.main-txt-style {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: var(--main-font-size);
+  line-height: var(--main-line-hight);
+  letter-spacing: var(--main-letter-spacing);
+  color: #434455;
+}
+
+.footer,
+.hero {
+  background-color: #2e2f42;
+}
+.team-section {
+  background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #ffffff;
+}
