@@ -26,6 +26,23 @@ body {
 .link:focus {
   color: var(--accent-color);
 }
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+}
 
 button {
   cursor: pointer;
@@ -70,6 +87,7 @@ button {
 }
 .page-adress {
   font-style: normal;
+  margin-left: auto;
 }
 .menu-item,
 .adress-item {
@@ -136,4 +154,38 @@ button {
 }
 .team-item {
   background-color: #ffffff;
+}
+.page-header-container {
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  align-items: center;
+  column-gap: 76px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  column-gap: 40px;
+}
+.header-adress-list {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header-adress-mail {
+  margin-right: 40px;
+}
+.page-header {
+  display: flex;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
